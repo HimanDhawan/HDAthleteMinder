@@ -15,6 +15,7 @@ Project is created with:
 SpringEffectSlidingView : https://github.com/HimanDhawan/SpringEffectSlidingView
 UIViewPulsatingAnimation : https://github.com/HimanDhawan/UIViewPulsatingAnimation
 
+![Simulator_Screen_Recording_-_iPhone_11_-_2021-09-19_at_12_08_28_SparkVideo-2](https://user-images.githubusercontent.com/16226329/135749451-297433f6-6d33-4107-9188-39c33b220888.gif)
 
 
 <!---
