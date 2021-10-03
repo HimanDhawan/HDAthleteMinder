@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "filename" : "ICON-Training-Take-Action-Indicator-Glow.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "ICON-Training-Take-Action-Indicator-Glow@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

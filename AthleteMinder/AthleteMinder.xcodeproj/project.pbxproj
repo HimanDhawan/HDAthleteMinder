@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5994586C26EF45E900614821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5994586B26EF45E900614821 /* AppDelegate.swift */; };
+		5994586E26EF45E900614821 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5994586D26EF45E900614821 /* SceneDelegate.swift */; };
+		5994587026EF45E900614821 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5994586F26EF45E900614821 /* ViewController.swift */; };
+		5994587326EF45E900614821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5994587126EF45E900614821 /* Main.storyboard */; };
+		5994587526EF45EA00614821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5994587426EF45EA00614821 /* Assets.xcassets */; };
+		5994587826EF45EA00614821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5994587626EF45EA00614821 /* LaunchScreen.storyboard */; };
+		5994589626EF56F600614821 /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994588026EF56F500614821 /* BebasNeue.otf */; };
+		5994589726EF56F600614821 /* DINNextLTPro-LightCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994588126EF56F500614821 /* DINNextLTPro-LightCondensed.otf */; };
+		5994589826EF56F600614821 /* DINNextLTPro-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994588226EF56F500614821 /* DINNextLTPro-MediumItalic.otf */; };
+		5994589926EF56F600614821 /* DINNextLTPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994588326EF56F500614821 /* DINNextLTPro-Medium.otf */; };
+		5994589A26EF56F600614821 /* DINNextLTPro-BlackCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994588426EF56F500614821 /* DINNextLTPro-BlackCondensed.otf */; };
+		5994589B26EF56F600614821 /* DINNextLTPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994588526EF56F500614821 /* DINNextLTPro-Light.otf */; };
+		5994589C26EF56F600614821 /* DINNextLTPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994588626EF56F500614821 /* DINNextLTPro-Black.otf */; };
+		5994589D26EF56F600614821 /* DINNextLTPro-HeavyCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994588726EF56F500614821 /* DINNextLTPro-HeavyCondensed.otf */; };
+		5994589E26EF56F600614821 /* DINNextLTPro-BoldCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994588826EF56F500614821 /* DINNextLTPro-BoldCondensed.otf */; };
+		5994589F26EF56F600614821 /* DINNextLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994588926EF56F500614821 /* DINNextLTPro-Bold.otf */; };
+		599458A026EF56F600614821 /* DINNextLTPro-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994588A26EF56F500614821 /* DINNextLTPro-Heavy.otf */; };
+		599458A126EF56F600614821 /* DINNextLTPro-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994588B26EF56F500614821 /* DINNextLTPro-HeavyItalic.otf */; };
+		599458A226EF56F600614821 /* DINNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994588C26EF56F500614821 /* DINNextLTPro-Regular.otf */; };
+		599458A326EF56F600614821 /* DINNextLTPro-MediumCond.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994588D26EF56F500614821 /* DINNextLTPro-MediumCond.otf */; };
+		599458A426EF56F600614821 /* DINNextLTPro-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994588E26EF56F600614821 /* DINNextLTPro-Italic.otf */; };
+		599458A526EF56F600614821 /* DINNextLTPro-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994588F26EF56F600614821 /* DINNextLTPro-UltraLight.otf */; };
+		599458A626EF56F600614821 /* DINNextLTPro-UltraLightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994589026EF56F600614821 /* DINNextLTPro-UltraLightIt.otf */; };
+		599458A726EF56F600614821 /* DINNextLTPro-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994589126EF56F600614821 /* DINNextLTPro-LightItalic.otf */; };
+		599458A826EF56F600614821 /* DINNextLTPro-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994589226EF56F600614821 /* DINNextLTPro-BoldItalic.otf */; };
+		599458A926EF56F600614821 /* DINNextLTPro-UltraLightCond.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994589326EF56F600614821 /* DINNextLTPro-UltraLightCond.otf */; };
+		599458AA26EF56F600614821 /* DINNextLTPro-Condensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994589426EF56F600614821 /* DINNextLTPro-Condensed.otf */; };
+		599458AB26EF56F600614821 /* DINNextLTPro-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5994589526EF56F600614821 /* DINNextLTPro-BlackItalic.otf */; };
+		599458E026F0E7FB00614821 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599458DF26F0E7FB00614821 /* UIImageView.swift */; };
+		599458E226F0F91400614821 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599458E126F0F91400614821 /* UIButton.swift */; };
+		599458E426F1A92D00614821 /* ViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599458E326F1A92D00614821 /* ViewControllerViewModel.swift */; };
+		599458EA26F1AC3500614821 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599458E926F1AC3500614821 /* DashBoardViewController.swift */; };
+		599458ED26F1B05200614821 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599458EC26F1B05200614821 /* CustomNavigationController.swift */; };
+		599458EF26F1B6AB00614821 /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599458EE26F1B6AB00614821 /* NavigationViewModel.swift */; };
+		599458F226F1B89800614821 /* DINFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599458F126F1B89800614821 /* DINFont.swift */; };
+		599458FD26F21AB800614821 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599458FC26F21AB800614821 /* UIView.swift */; };
+		5994590426F3184600614821 /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5994590326F3184600614821 /* TrainingViewController.swift */; };
+		5994590626F3212700614821 /* DashBoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5994590526F3212700614821 /* DashBoardViewModel.swift */; };
+		5994590826F3257200614821 /* TrainingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5994590726F3257200614821 /* TrainingViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5994586826EF45E900614821 /* AthleteMinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AthleteMinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5994586B26EF45E900614821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5994586D26EF45E900614821 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5994586F26EF45E900614821 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5994587226EF45E900614821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5994587426EF45EA00614821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5994587726EF45EA00614821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5994587926EF45EA00614821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5994588026EF56F500614821 /* BebasNeue.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue.otf; sourceTree = "<group>"; };
+		5994588126EF56F500614821 /* DINNextLTPro-LightCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-LightCondensed.otf"; sourceTree = "<group>"; };
+		5994588226EF56F500614821 /* DINNextLTPro-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-MediumItalic.otf"; sourceTree = "<group>"; };
+		5994588326EF56F500614821 /* DINNextLTPro-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Medium.otf"; sourceTree = "<group>"; };
+		5994588426EF56F500614821 /* DINNextLTPro-BlackCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-BlackCondensed.otf"; sourceTree = "<group>"; };
+		5994588526EF56F500614821 /* DINNextLTPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Light.otf"; sourceTree = "<group>"; };
+		5994588626EF56F500614821 /* DINNextLTPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Black.otf"; sourceTree = "<group>"; };
+		5994588726EF56F500614821 /* DINNextLTPro-HeavyCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-HeavyCondensed.otf"; sourceTree = "<group>"; };
+		5994588826EF56F500614821 /* DINNextLTPro-BoldCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-BoldCondensed.otf"; sourceTree = "<group>"; };
+		5994588926EF56F500614821 /* DINNextLTPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Bold.otf"; sourceTree = "<group>"; };
+		5994588A26EF56F500614821 /* DINNextLTPro-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Heavy.otf"; sourceTree = "<group>"; };
+		5994588B26EF56F500614821 /* DINNextLTPro-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-HeavyItalic.otf"; sourceTree = "<group>"; };
+		5994588C26EF56F500614821 /* DINNextLTPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Regular.otf"; sourceTree = "<group>"; };
+		5994588D26EF56F500614821 /* DINNextLTPro-MediumCond.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-MediumCond.otf"; sourceTree = "<group>"; };
+		5994588E26EF56F600614821 /* DINNextLTPro-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Italic.otf"; sourceTree = "<group>"; };
+		5994588F26EF56F600614821 /* DINNextLTPro-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-UltraLight.otf"; sourceTree = "<group>"; };
+		5994589026EF56F600614821 /* DINNextLTPro-UltraLightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-UltraLightIt.otf"; sourceTree = "<group>"; };
+		5994589126EF56F600614821 /* DINNextLTPro-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-LightItalic.otf"; sourceTree = "<group>"; };
+		5994589226EF56F600614821 /* DINNextLTPro-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-BoldItalic.otf"; sourceTree = "<group>"; };
+		5994589326EF56F600614821 /* DINNextLTPro-UltraLightCond.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-UltraLightCond.otf"; sourceTree = "<group>"; };
+		5994589426EF56F600614821 /* DINNextLTPro-Condensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Condensed.otf"; sourceTree = "<group>"; };
+		5994589526EF56F600614821 /* DINNextLTPro-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-BlackItalic.otf"; sourceTree = "<group>"; };
+		599458DF26F0E7FB00614821 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		599458E126F0F91400614821 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		599458E326F1A92D00614821 /* ViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerViewModel.swift; sourceTree = "<group>"; };
+		599458E926F1AC3500614821 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		599458EC26F1B05200614821 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		599458EE26F1B6AB00614821 /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
+		599458F126F1B89800614821 /* DINFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DINFont.swift; sourceTree = "<group>"; };
+		599458FC26F21AB800614821 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		5994590326F3184600614821 /* TrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
+		5994590526F3212700614821 /* DashBoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewModel.swift; sourceTree = "<group>"; };
+		5994590726F3257200614821 /* TrainingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5994586526EF45E900614821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5994585F26EF45E900614821 = {
+			isa = PBXGroup;
+			children = (
+				5994586A26EF45E900614821 /* AthleteMinder */,
+				5994586926EF45E900614821 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5994586926EF45E900614821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5994586826EF45E900614821 /* AthleteMinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5994586A26EF45E900614821 /* AthleteMinder */ = {
+			isa = PBXGroup;
+			children = (
+				5994587926EF45EA00614821 /* Info.plist */,
+				599458B326EF587A00614821 /* Storyboard */,
+				599458B126EF586400614821 /* Delegate */,
+				599458AC26EF582B00614821 /* Features */,
+				599458B226EF586D00614821 /* Utils */,
+			);
+			path = AthleteMinder;
+			sourceTree = "<group>";
+		};
+		5994587F26EF56E300614821 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				599458F026F1B88400614821 /* FontFiles */,
+				599458F126F1B89800614821 /* DINFont.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		599458AC26EF582B00614821 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				599458FE26F3172300614821 /* Training */,
+				599458E526F1AC0F00614821 /* Dashboard */,
+				599458AD26EF583900614821 /* Login */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		599458AD26EF583900614821 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				599458B026EF585A00614821 /* Model */,
+				599458AF26EF585500614821 /* ViewModel */,
+				599458AE26EF584700614821 /* ViewController */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		599458AE26EF584700614821 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5994586F26EF45E900614821 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		599458AF26EF585500614821 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				599458E326F1A92D00614821 /* ViewControllerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		599458B026EF585A00614821 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		599458B126EF586400614821 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				5994586B26EF45E900614821 /* AppDelegate.swift */,
+				5994586D26EF45E900614821 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		599458B226EF586D00614821 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				599458EB26F1B04100614821 /* NavigationController */,
+				599458DE26F0E7E600614821 /* Extensions */,
+				5994587F26EF56E300614821 /* Font */,
+				5994587426EF45EA00614821 /* Assets.xcassets */,
+				5994587626EF45EA00614821 /* LaunchScreen.storyboard */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		599458B326EF587A00614821 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5994587126EF45E900614821 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		599458DE26F0E7E600614821 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				599458DF26F0E7FB00614821 /* UIImageView.swift */,
+				599458FC26F21AB800614821 /* UIView.swift */,
+				599458E126F0F91400614821 /* UIButton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		599458E526F1AC0F00614821 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				599458E826F1AC1F00614821 /* ViewModel */,
+				599458E726F1AC1B00614821 /* View */,
+				599458E626F1AC1700614821 /* Model */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		599458E626F1AC1700614821 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		599458E726F1AC1B00614821 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				599458E926F1AC3500614821 /* DashBoardViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		599458E826F1AC1F00614821 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5994590526F3212700614821 /* DashBoardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		599458EB26F1B04100614821 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				599458EC26F1B05200614821 /* CustomNavigationController.swift */,
+				599458EE26F1B6AB00614821 /* NavigationViewModel.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		599458F026F1B88400614821 /* FontFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5994588026EF56F500614821 /* BebasNeue.otf */,
+				5994588626EF56F500614821 /* DINNextLTPro-Black.otf */,
+				5994588426EF56F500614821 /* DINNextLTPro-BlackCondensed.otf */,
+				5994589526EF56F600614821 /* DINNextLTPro-BlackItalic.otf */,
+				5994588926EF56F500614821 /* DINNextLTPro-Bold.otf */,
+				5994588826EF56F500614821 /* DINNextLTPro-BoldCondensed.otf */,
+				5994589226EF56F600614821 /* DINNextLTPro-BoldItalic.otf */,
+				5994589426EF56F600614821 /* DINNextLTPro-Condensed.otf */,
+				5994588A26EF56F500614821 /* DINNextLTPro-Heavy.otf */,
+				5994588726EF56F500614821 /* DINNextLTPro-HeavyCondensed.otf */,
+				5994588B26EF56F500614821 /* DINNextLTPro-HeavyItalic.otf */,
+				5994588E26EF56F600614821 /* DINNextLTPro-Italic.otf */,
+				5994588526EF56F500614821 /* DINNextLTPro-Light.otf */,
+				5994588126EF56F500614821 /* DINNextLTPro-LightCondensed.otf */,
+				5994589126EF56F600614821 /* DINNextLTPro-LightItalic.otf */,
+				5994588326EF56F500614821 /* DINNextLTPro-Medium.otf */,
+				5994588D26EF56F500614821 /* DINNextLTPro-MediumCond.otf */,
+				5994588226EF56F500614821 /* DINNextLTPro-MediumItalic.otf */,
+				5994588C26EF56F500614821 /* DINNextLTPro-Regular.otf */,
+				5994588F26EF56F600614821 /* DINNextLTPro-UltraLight.otf */,
+				5994589326EF56F600614821 /* DINNextLTPro-UltraLightCond.otf */,
+				5994589026EF56F600614821 /* DINNextLTPro-UltraLightIt.otf */,
+			);
+			path = FontFiles;
+			sourceTree = "<group>";
+		};
+		599458FE26F3172300614821 /* Training */ = {
+			isa = PBXGroup;
+			children = (
+				5994590226F3181C00614821 /* Model */,
+				5994590026F3181200614821 /* View */,
+				599458FF26F3180D00614821 /* ViewModel */,
+			);
+			path = Training;
+			sourceTree = "<group>";
+		};
+		599458FF26F3180D00614821 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5994590726F3257200614821 /* TrainingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5994590026F3181200614821 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5994590326F3184600614821 /* TrainingViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5994590226F3181C00614821 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5994586726EF45E900614821 /* AthleteMinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5994587C26EF45EA00614821 /* Build configuration list for PBXNativeTarget "AthleteMinder" */;
+			buildPhases = (
+				5994586426EF45E900614821 /* Sources */,
+				5994586526EF45E900614821 /* Frameworks */,
+				5994586626EF45E900614821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AthleteMinder;
+			productName = AthleteMinder;
+			productReference = 5994586826EF45E900614821 /* AthleteMinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5994586026EF45E900614821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5994586726EF45E900614821 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 5994586326EF45E900614821 /* Build configuration list for PBXProject "AthleteMinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5994585F26EF45E900614821;
+			productRefGroup = 5994586926EF45E900614821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5994586726EF45E900614821 /* AthleteMinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5994586626EF45E900614821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599458A026EF56F600614821 /* DINNextLTPro-Heavy.otf in Resources */,
+				5994589C26EF56F600614821 /* DINNextLTPro-Black.otf in Resources */,
+				5994589E26EF56F600614821 /* DINNextLTPro-BoldCondensed.otf in Resources */,
+				599458A326EF56F600614821 /* DINNextLTPro-MediumCond.otf in Resources */,
+				599458AB26EF56F600614821 /* DINNextLTPro-BlackItalic.otf in Resources */,
+				599458AA26EF56F600614821 /* DINNextLTPro-Condensed.otf in Resources */,
+				5994587826EF45EA00614821 /* LaunchScreen.storyboard in Resources */,
+				599458A626EF56F600614821 /* DINNextLTPro-UltraLightIt.otf in Resources */,
+				5994589B26EF56F600614821 /* DINNextLTPro-Light.otf in Resources */,
+				599458A526EF56F600614821 /* DINNextLTPro-UltraLight.otf in Resources */,
+				599458A426EF56F600614821 /* DINNextLTPro-Italic.otf in Resources */,
+				5994587526EF45EA00614821 /* Assets.xcassets in Resources */,
+				599458A126EF56F600614821 /* DINNextLTPro-HeavyItalic.otf in Resources */,
+				5994589D26EF56F600614821 /* DINNextLTPro-HeavyCondensed.otf in Resources */,
+				5994589926EF56F600614821 /* DINNextLTPro-Medium.otf in Resources */,
+				599458A726EF56F600614821 /* DINNextLTPro-LightItalic.otf in Resources */,
+				599458A226EF56F600614821 /* DINNextLTPro-Regular.otf in Resources */,
+				599458A926EF56F600614821 /* DINNextLTPro-UltraLightCond.otf in Resources */,
+				5994589626EF56F600614821 /* BebasNeue.otf in Resources */,
+				5994587326EF45E900614821 /* Main.storyboard in Resources */,
+				599458A826EF56F600614821 /* DINNextLTPro-BoldItalic.otf in Resources */,
+				5994589726EF56F600614821 /* DINNextLTPro-LightCondensed.otf in Resources */,
+				5994589A26EF56F600614821 /* DINNextLTPro-BlackCondensed.otf in Resources */,
+				5994589826EF56F600614821 /* DINNextLTPro-MediumItalic.otf in Resources */,
+				5994589F26EF56F600614821 /* DINNextLTPro-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5994586426EF45E900614821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599458EF26F1B6AB00614821 /* NavigationViewModel.swift in Sources */,
+				599458E226F0F91400614821 /* UIButton.swift in Sources */,
+				5994590826F3257200614821 /* TrainingViewModel.swift in Sources */,
+				599458F226F1B89800614821 /* DINFont.swift in Sources */,
+				5994590626F3212700614821 /* DashBoardViewModel.swift in Sources */,
+				599458E426F1A92D00614821 /* ViewControllerViewModel.swift in Sources */,
+				599458FD26F21AB800614821 /* UIView.swift in Sources */,
+				599458E026F0E7FB00614821 /* UIImageView.swift in Sources */,
+				599458EA26F1AC3500614821 /* DashBoardViewController.swift in Sources */,
+				5994590426F3184600614821 /* TrainingViewController.swift in Sources */,
+				599458ED26F1B05200614821 /* CustomNavigationController.swift in Sources */,
+				5994587026EF45E900614821 /* ViewController.swift in Sources */,
+				5994586C26EF45E900614821 /* AppDelegate.swift in Sources */,
+				5994586E26EF45E900614821 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5994587126EF45E900614821 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5994587226EF45E900614821 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5994587626EF45EA00614821 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5994587726EF45EA00614821 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5994587A26EF45EA00614821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5994587B26EF45EA00614821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5994587D26EF45EA00614821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XZFU4U9N4;
+				INFOPLIST_FILE = AthleteMinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paymentus.sdk.PayBills;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5994587E26EF45EA00614821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XZFU4U9N4;
+				INFOPLIST_FILE = AthleteMinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paymentus.sdk.PayBills;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5994586326EF45E900614821 /* Build configuration list for PBXProject "AthleteMinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5994587A26EF45EA00614821 /* Debug */,
+				5994587B26EF45EA00614821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5994587C26EF45EA00614821 /* Build configuration list for PBXNativeTarget "AthleteMinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5994587D26EF45EA00614821 /* Debug */,
+				5994587E26EF45EA00614821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5994586026EF45E900614821 /* Project object */;
+}
